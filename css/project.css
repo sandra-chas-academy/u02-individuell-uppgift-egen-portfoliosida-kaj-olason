@@ -1,0 +1,115 @@
+@import url("scema.css");
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  min-height: calc(100vh - (160px + 100px));
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 375px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 20px;
+
+  .cardImage {
+    width: 375px;
+    height: 260px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .cardImage1 {
+    background: url(/images/cardImages/card1.jpeg) bottom left no-repeat;
+  }
+
+  .cardImage2 {
+    background: url(/images/cardImages/card2.jpeg) center center no-repeat;
+  }
+
+  .cardImage3 {
+    background: url(/images/cardImages/card3.jpeg) center center no-repeat;
+  }
+
+  .cardImage4 {
+    background: url(/images/cardImages/card4.jpeg) center center no-repeat;
+  }
+
+  .cardImage5 {
+    background: url(/images/cardImages/card5.jpeg) center center no-repeat;
+  }
+
+  .cardImage6 {
+    background: url(/images/cardImages/card6.jpeg) center center no-repeat;
+  }
+
+  .cardMain {
+    width: 375px;
+    padding: 10px 10px;
+
+    h2 {
+      font-size: 28px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      color: var(--Solid-Heading);
+    }
+
+    p {
+      font-size: 18px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      color: var(--Solid-Heading);
+      margin-bottom: 10px;
+    }
+
+    .stackItems {
+      font-size: 16px;
+
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+
+  .cardFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+
+    .linkItem {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+
+      a {
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        color: #000;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+}
