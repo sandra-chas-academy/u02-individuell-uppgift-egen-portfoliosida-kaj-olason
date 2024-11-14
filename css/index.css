@@ -1,0 +1,34 @@
+main {
+  min-height: calc(100vh - (160px + 100px));
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  flex-direction: column;
+}
+
+main p {
+  width: 636px;
+  font-size: 58px;
+  color: var(--Text-Color);
+}
+
+main span {
+  background: linear-gradient(to left, #13b0f5, #ca24b4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main img {
+  border-width: 4px;
+  border-color: #974cc7;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+}

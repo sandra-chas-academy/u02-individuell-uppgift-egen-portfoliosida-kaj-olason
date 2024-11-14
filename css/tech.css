@@ -1,0 +1,49 @@
+@import url("scema.css");
+
+main {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  min-height: calc(100vh - (160px + 100px));
+}
+
+main h1 {
+  font-size: 42px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: var(--Headings-color);
+}
+
+main p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: var(--dark-content);
+}
+
+.techContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.break {
+  flex-basis: 100%;
+}
+
+.techIconContainer {
+  width: calc(100% / 4);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 55px;
+}
+
+@media (min-width: 768px) {
+  .techIconContainer {
+    width: calc(100% / 6);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 55px;
+  }
+}

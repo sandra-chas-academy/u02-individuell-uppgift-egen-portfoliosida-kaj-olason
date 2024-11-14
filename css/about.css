@@ -1,0 +1,99 @@
+@import url("scema.css");
+
+main {
+  width: 90%;
+  margin: auto;
+  min-height: calc(100vh - (160px + 100px));
+}
+
+main h2 {
+  font-size: 42px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: var(--Headings-color);
+}
+
+main p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: var(--dark-content);
+}
+
+.aboutContainer {
+  width: 90%;
+}
+
+.experienceContainer {
+  width: 90%;
+
+  .experienceItem {
+    border-bottom: 2px solid #f5f5f5;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+
+    .experienceItemHeader {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        color: var(--dark-content);
+        font-size: 20px;
+        line-height: 28px;
+      }
+
+      span {
+        background-color: #d7ffe0;
+        border-radius: 20px;
+        font-size: 9px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #018c0f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 84px;
+        height: 24px;
+      }
+    }
+
+    .experienceItemBody {
+      display: flex;
+      justify-content: space-between;
+
+      .companyLocationContainer {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+          font-size: 12px;
+        }
+      }
+
+      .itemGroup {
+        display: flex;
+        gap: 8px;
+      }
+    }
+
+    .experienceItemBody p {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .aboutContainer,
+  .experienceContainer {
+    width: 708px;
+  }
+
+  .companyLocationContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+}
