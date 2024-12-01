@@ -1,4 +1,14 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Y0f03qEq)
+## Frågor & Svar
+
+### Vad kan man utveckla m.h.a av Javascript inom frontend?
+Du kan utveckla en mer interaktiv webbsida med hjälp av javascript. Du kan tillexempel manipulera webbsidas innehåll beroende på vad användare svarat i ett webbformulär.
+
+### Vad är JSON och hur används det inom frontend?
+JSON står för Javascript Object Notation. Det är en standard text-format för att representera strukturerad data. En data-struktur som sedan använd för att komunicera data mellan servar och applikationer.
+
+### Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
+
+
 # Instruktioner
 
 Denna uppgift går ut på att du bygga vidare uppgift u01 - Portfoliosida utifrån designskiss med Javascript. Du är nu fri att ändra till egen design / layout, samt eget innehåll. Det är dock viktigt att du behåller en sektion för CV ("About me") och en sektion med projekt ("Projects") eftersom du ska vidareutveckla sidan med Javascript på dessa sektioner. 
