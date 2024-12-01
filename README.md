@@ -7,10 +7,13 @@ Klick på hamburgar-menyn mobil-läge är styrt av javascript. Det är inlagd en
 Jag refleterar att jag blivit starkare och mer bekväm i rollen med git & gitHub. det känns mer självklart att skapa branch och merge den. Jag känner mig även rätt så bekväm i rollen med fetch och API hantering. 
 Jag fick utmaning i validering av sidan. Det var frågon om html tag Details och Summary som jag använt för att animera hamburgar-meny iconen vid klick. Man fär tydligen inte lägga in div i Summary-taggen. Jag löste det med att göra om de till en javascriptslösning istället.
 
+Webbsidan live kan du se på [följande sida](https://kaj-portfolio-site.netlify.app/)
+
 ## Frågor & Svar
 
 ### Vad kan man utveckla m.h.a av Javascript inom frontend?
-Du kan utveckla en mer interaktiv webbsida med hjälp av javascript. Du kan tillexempel manipulera webbsidas innehåll beroende på vad användare svarat i ett webbformulär.
+Du kan utveckla en mer interaktiv webbsida med hjälp av javascript. Du kan tillexempel manipulera webbsidas innehåll beroende på vad användare svarat i ett webbformulär. Du kan göra snygga slideshowes, modals och få till en använarvänlig validering i ett webformulär.
+Du kan med hjälp av javascript läsa in data från externa filer.
 
 ### Vad är JSON och hur används det inom frontend?
 JSON står för Javascript Object Notation. Det är en standard text-format för att representera strukturerad data. En data-struktur som sedan använd för att komunicera data mellan servar och applikationer.
