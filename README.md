@@ -1,3 +1,10 @@
+## Portfolie webbsida
+En portfolie webbplats med bland annat information om arbeten, utbildningar och projekt. information om arbeten och utbildningar är hämtade ifrån lokalt uppbyggd json-fil. Underlag på projekt-sidan är direkt hämtad ifrån GitHub api, endel av projekt-sidans innehåll samkörs också med delar av den lokala json-filen. Det är även inlaggd loader-animation i samklang med hämtning av data till sidorna. Det är inlaggt en fördröjning av 1 sekund för att tydligare påvisa denna funktionalitet. 
+
+Klick på hamburgar-menyn mobil-läge är styrt av javascript. Det är inlagd en iformations - ikon vid utbildningarna, klicka på den så upkommer det en popup-ruta med kort information om varje utbildning. Funktionen till detta är byggt i javascript och informationen om utbildningarna är också hämtade ifrån json-fil.
+
+### Reflektion över styrkor & utmaningar
+
 ## Frågor & Svar
 
 ### Vad kan man utveckla m.h.a av Javascript inom frontend?
@@ -7,6 +14,7 @@ Du kan utveckla en mer interaktiv webbsida med hjälp av javascript. Du kan till
 JSON står för Javascript Object Notation. Det är en standard text-format för att representera strukturerad data. En data-struktur som sedan använd för att komunicera data mellan servar och applikationer.
 
 ### Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
+HTTP står för Hypertext Transfer Protocol. HTTP spelar en viktig roll i att skicka information melan applikation och servar. Du kan skicka eller ta emot data melan klient och server med bland annat följande http - commandon GET, POST, PUT och DELETE
 
 
 # Instruktioner
