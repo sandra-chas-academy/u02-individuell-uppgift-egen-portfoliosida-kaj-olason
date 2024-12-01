@@ -64,7 +64,7 @@ main p {
       .companyLocationContainer {
         display: flex;
         justify-content: space-between;
-
+        width: 100%;
         p {
           font-size: 12px;
         }
@@ -80,6 +80,63 @@ main p {
       font-size: 12px;
     }
   }
+}
+
+.schemaInfoContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.iconInfo {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.infoContainerFilter {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  display: none;
+}
+
+.infoClose {
+}
+
+.infoContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 60%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px 60px;
+}
+
+.infoClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.showInfo {
+  display: block;
 }
 
 @media (min-width: 1200px) {

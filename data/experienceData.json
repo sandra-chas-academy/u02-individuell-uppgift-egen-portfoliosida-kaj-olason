@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "name": "createweb",
+      "image": "/images/projectscreen/screenCreateweb.png",
+      "description": "Some description...",
+      "previewURL": "url",
+      "gitURL": "url"
+    },
+    {
+      "name": "creditcardapp",
+      "image": "/images/projectscreen/screenCreditCard.png",
+      "description": "Some description...",
+      "previewURL": "url",
+      "gitURL": "url"
+    },
+    {
+      "name": "friisel",
+      "image": "/images/projectscreen/screenFriisEL.png",
+      "description": "Some description...",
+      "previewURL": "url",
+      "gitURL": "url"
+    }
+  ],
+  "workexperience": [
+    {
+      "title": "frontend utvecklare",
+      "schema": "fulltime",
+      "company": "Webbhuset AB",
+      "location": "Göteborg",
+      "startDate": "April 2022",
+      "endDate": "September 2022"
+    }
+  ],
+  "education": [
+    {
+      "title": "Fullstack javascript",
+      "schema": "fulltime",
+      "school": "Chas Academy AB",
+      "info": "Väldigt bra utbildning",
+      "location": "Stockholm",
+      "startDate": "September 2024",
+      "endDate": "maj 2026"
+    },
+    {
+      "title": "Distrubuerad systemutevecling",
+      "schema": "fulltime",
+      "school": "Utbildningsborgen AB",
+      "info": "Väldigt bra utbildning toppen!",
+      "location": "Örebro",
+      "startDate": "September 2007",
+      "endDate": "maj 2009"
+    }
+  ]
+}
